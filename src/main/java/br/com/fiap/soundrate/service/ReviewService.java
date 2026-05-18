@@ -33,6 +33,11 @@ public class ReviewService {
         return reviewRepository.findById(id)
             .orElseThrow(() -> new RuntimeException("Review não encontrada com id: " + id));
     }
+
+    @Cacheable(value = "reviews", key = "'user_' + #userId")
+    public List<Review> findByUserId(Long userId) {
+        return reviewRepository.findByUserId(userId);
+    }
     
     @Transactional
     @CacheEvict(value = {"reviews", "albums"}, allEntries = true)
