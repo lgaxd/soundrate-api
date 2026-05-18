@@ -9,7 +9,7 @@ API REST completa para gerenciamento de usuários, álbuns musicais e avaliaçõ
 ## Tecnologias Utilizadas
 
 - **Java 21**
-- **Spring Boot 3.1.5**
+- **Spring Boot**
 - **Spring Data JPA** - Persistência de dados
 - **H2 Database** - Banco de dados em memória
 - **Spring Validation** - Validação de dados
@@ -75,3 +75,15 @@ API REST completa para gerenciamento de usuários, álbuns musicais e avaliaçõ
 | PUT | `/reviews/{id}` | Atualiza avaliação |
 | DELETE | `/reviews/{id}` | Remove avaliação |
 | GET | `/reviews/album/{albumId}` | Lista avaliações de um álbum |
+
+## 👥 Autores
+
+- **Lucas Grillo Alcântara** - RM 561413
+- **Pietro Abrahamian** - RM 561469  
+- **Lucca Ramos Mussumecci** - RM 562027
+
+## 🔗 Links Úteis
+
+- **Swagger UI**: http://localhost:8080/swagger-ui.html
+- **H2 Console**: http://localhost:8080/h2-console
+- **Actuator Health**: http://localhost:8080/actuator/health

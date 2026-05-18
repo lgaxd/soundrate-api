@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>br.com.fiap</groupId>
 	<artifactId>soundrate</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<version>1.0.0</version>
+	<name>soundrate</name>
+	<description>SoundRate API - API para avaliar álbuns de música</description>
 	<url/>
 	<licenses>
 		<license/>
